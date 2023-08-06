@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forms</title>
+</head>
+<body>
+    <div class="container">
+        <form action="#" method="post">
+            <h1>Contact Us</h1>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Name">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="Email">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+        <form action="#" method="post">
+            <h1>Login</h1>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" placeholder="Username">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Password">
+            <input type="submit" value="Login">
+        </form>
+        <form action="#" method="post">
+            <h1>Survey</h1>
+    
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Name">
+    
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" placeholder="Age">
+    
+            <div class="gender">
+                <label for="gender" id="gender">Gender</label>
+                <label for="gender1"><input type="radio" name="gender" id="gender1" value="Male">Male</label>
+                <label for="gender2"><input type="radio" name="gender" id="gender2" value="Female">Female</label>
+            </div>
+    
+            <div class="wpldyk">
+                <label for="wpldyk" id="wpldyk">Which programming language do you know?</label>
+                <label for="wpldyk1"><input type="checkbox" name="wpldyk" id="wpldyk1" value="Ruby">Ruby</label>
+                <label for="wpldyk2"><input type="checkbox" name="wpldyk" id="wpldyk2" value="Javascript">JavaScript</label>
+                <label for="wpldyk3"><input type="checkbox" name="wpldyk" id="wpldyk3" value="Python">Python</label>
+                <label for="wpldyk4"><input type="checkbox" name="wpldyk" id="wpldyk4" value="PHP">PHP</label>
+                <label for="wpldyk5"><input type="checkbox" name="wpldyk" id="wpldyk5" value="Java">Java</label>
+                <label for="wpldyk6"><input type="checkbox" name="wpldyk" id="wpldyk6" value="C++">C++</label>
+            </div>
+    
+            <label for="comments" class="comments">Comments</label>
+            <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Comments"></textarea>
+    
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
